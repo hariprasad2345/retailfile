@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.body{
+    width: 100%;
+    height: 5000px;
+    background-color: aqua;
+}
+.container{
+    background-image: url(images/download.jpeg);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+}
+.text h1{
+    font-size: 70px;
+    color: white;
+    padding-left: 40px;
+    padding-top: 20px;
+    
+
+}
+.text h2{
+    font-size: 20px;
+    color: white;
+   padding-top: 250px;
+}
+h1{
+    font-size: 50px;
+}
+.fullname{
+    padding-top: 30px;
+}
+
+.fullname input{
+  
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  width: 600px;
+  margin-top: 20px;
+ 
+ }
+
+ .email input{
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    width: 600px;
+    margin-top: 20px;
+ }
+.message input{
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    width: 600px;
+    margin-top: 60px;
+    
+}
+.s1 button{
+  margin-top: 30px;
+  padding: 10px 20px 10px 20px ;
+  background-color: white;
+  border-color: orange;
+  border-radius: 30px;
+  cursor: pointer;
+}
+button:hover{
+    background-color:orange ;
+}
+.box1{
+
+    float: right;
+    padding-right: 300px;
+    
+}
+
+.s2{
+    padding-top:600px;
+    text-align: center;
+}
+.box2{
+width: 300px;
+height: 400px;
+background-color: white;
+
+}
+.box2 h1{
+    font-size: 30px;
+}
+.box3{
+    padding-top: -200px;
+   padding-left: 150px;
+}
+.box3 h1{
+    font-size: 30px;
+}
+.box4{
+    padding-left: 50px;
+}
+.box4 h1{
+    font-size: 30px;
+}
+.header{
+    display: flex;
+    padding-top: 50px;
+}
+.image{
+    width: 100%;
+    height: 500px;
+    background-color: brown;
+    background-image:url(/images/img-YbNNegoLLBU5XDD3.avif);
+    background-size: cover;
+    margin-top: 50px;
+   
+}
+.image h1{
+    font-size: 50px;
+    color: white;
+    padding-top: 250px;
+}
+.image button{
+    padding: 10px 10px 10px 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+.image button:hover{
+    background-color: white;
+    
+}
+
